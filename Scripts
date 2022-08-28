@@ -38,3 +38,4 @@ if game.PlaceId == 142823291 then
     else
         game.Players.LocalPlayer:Kick("why tf are u using this not in mm2???")
     end
+end
