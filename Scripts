@@ -1,0 +1,40 @@
+--[[
+  made by thiefpat001
+
+
+]]--
+
+if game.PlaceId == 142823291 then
+    local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source%22)))()
+    local Window = OrionLib:MakeWindow({Name = "Murder Mystery 2 Scripts", HidePremium = false, IntroText = "thiefpat's H    U  B has launched" SaveConfig = true, ConfigFolder = "ThiefsTest"})
+
+    local SpeedHacks = Window:MakeTab({
+        Name = "Speed Scripts",
+        Icon = "rbxassetid://6507028356",
+        PremiumOnly = false
+    })
+
+    OrionLib:MakeNotification({
+        Name = "Mm2 H  U  B ",
+        Content = "Notification content... Scrips are all working!",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    }) 
+
+    OrionLib:MakeNotification({
+        Name = "Who knows",
+        Content = "thiefpat's H  U  B ",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    }) 
+
+    
+    while true do
+    wait()
+    print("!thiefpat's H U   B  hass been launched!'") 
+    end
+
+       
+    else
+        game.Players.LocalPlayer:Kick("why tf are u using this not in mm2???")
+    end
